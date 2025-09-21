@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exam_details",
+  "info": {
+    "singularName": "exam-detail",
+    "pluralName": "exam-details",
+    "displayName": "result"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "name_of_post": {
+      "type": "string"
+    },
+    "type": {
+      "type": "json"
+    },
+    "job_type": {
+      "type": "json"
+    },
+    "post_date": {
+      "type": "datetime"
+    },
+    "short_desc": {
+      "type": "blocks"
+    },
+    "short_detail": {
+      "type": "string"
+    },
+    "exam_date": {
+      "type": "date"
+    },
+    "vacancy_details": {
+      "type": "blocks"
+    },
+    "important_dates": {
+      "type": "json"
+    },
+    "application_fee": {
+      "type": "json"
+    },
+    "age_limit": {
+      "type": "json"
+    },
+    "total_posts": {
+      "type": "biginteger"
+    },
+    "physical_standards": {
+      "type": "json"
+    },
+    "how_to_apply": {
+      "type": "json"
+    },
+    "documents_required": {
+      "type": "json"
+    },
+    "selection_process": {
+      "type": "json"
+    },
+    "important_links": {
+      "type": "json"
+    },
+    "faq": {
+      "type": "json"
+    },
+    "disclaimer": {
+      "type": "text"
+    },
+    "meta_title": {
+      "type": "text"
+    },
+    "meta_keywords": {
+      "type": "text"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "publish_time": {
+      "type": "datetime"
+    },
+    "update_time": {
+      "type": "datetime"
+    }
+  }
+}
